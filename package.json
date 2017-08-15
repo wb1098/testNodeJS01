@@ -4,12 +4,16 @@
   "main": "server.js",
   "dependencies": {
     "angular2": "^2.0.0-beta.21",
+    "bootstrap": "^3.3.7",
+    "bower": "^1.8.0",
     "commander": "^2.11.0",
     "express": "^4.15.4",
     "lodash": "^4.17.4",
     "mongo": "^0.1.0",
     "start": "^5.1.0",
-    "underscore": "^1.8.3"
+    "underscore": "^1.8.3",
+    "webpack": "^3.5.4",
+    "yarn": "^0.27.5"
   },
   "devDependencies": {},
   "scripts": {
