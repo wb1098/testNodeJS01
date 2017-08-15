@@ -1,19 +1,30 @@
 {
-  "name": "heckletest01",
+  "name": "nodeproject01",
   "version": "1.0.0",
-  "description": "testing some basic things",
-  "main": "index.js",
+  "main": "server.js",
+  "dependencies": {
+    "angular2": "^2.0.0-beta.21",
+    "commander": "^2.11.0",
+    "express": "^4.15.4",
+    "lodash": "^4.17.4",
+    "mongo": "^0.1.0",
+    "start": "^5.1.0",
+    "underscore": "^1.8.3"
+  },
+  "devDependencies": {},
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/wb1098/testNodeJS01.git"
   },
-  "author": "",
+  "author": "heckle",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/wb1098/testNodeJS01/issues"
   },
-  "homepage": "https://github.com/wb1098/testNodeJS01#readme"
+  "homepage": "https://github.com/wb1098/testNodeJS01#readme",
+  "description": "testing node and a few other things"
 }
